@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STAFF PAGE</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <!-- font links start -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,700;1,300;1,900&family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet">
+    <!-- font links end -->
+</head>
+<body class="container">
+    <!-- header start -->
+    <header class="header">
+        <input type="checkbox" class="header-checkbox" id="header-checkbox">
+
+        <div class="header__name">
+            <svg class="header__logo">
+                <use xlink:href = "./images/sprite.svg#icon-shield"></use>
+            </svg>
+            <svg class="header__logo">
+                <use xlink:href = "./images/sprite.svg#icon-man-woman"></use>
+            </svg>
+            <div class="hospital-name">akot hospital</div>
+        </div>
+        
+        <ul class="header__list">
+            <li class="item"><a href="./index.html" class="link">home</a></li>
+            <li class="item"><a href="./service.html" class="link">services</a></li>
+            <li class="item"><a href="#" class="link">partnerships</a></li>
+            <li class="item"><a href="#" class="link">about us</a></li>
+            <li class="item"><a href="./patient.html" class="link">appointment</a></li>
+        </ul>
+        <!-- start of arrow -->
+        <div class="arrow-staff-box arrow-staff-box-left">  
+            <svg class="arrow-icon">
+                <use xlink:href = "./images/sprite.svg#icon-arrow-left"></use>
+            </svg>
+        </div>
+        <div class="arrow-staff-box arrow-staff-box-right">
+            <svg class="arrow-icon">
+                <use xlink:href = "./images/sprite.svg#icon-arrow-right"></use>
+            </svg>
+        </div>
+    <!-- end of arrow -->   
+        <div class="header__contacts">
+            <svg class="header__icon">
+                <use xlink:href = "./images/sprite.svg#icon-facebook"></use>
+            </svg>
+            <svg class="header__icon">
+                <use xlink:href = "./images/sprite.svg#icon-twitter"></use>
+            </svg>
+            <svg class="header__icon">
+                <use xlink:href = "./images/sprite.svg#icon-telegram"></use>
+            </svg>
+            <svg class="header__icon">
+                <use xlink:href = "./images/sprite.svg#icon-whatsapp"></use>
+            </svg>
+            <svg class="header__icon">
+                <use xlink:href = "./images/sprite.svg#icon-bell"></use>
+            </svg>
+        </div>
+        <!-- header list menu -->
+        <label class="menu-box" for="header-checkbox">
+            <div class="menu-line"></div> 
+            </label>
+    </header>
+    <!-- header end -->
+    <!-- main start -->
+    <main class="main main-staff">
+        <!-- box one start -->
+        <div class="staff-box-1">
+            <div class="title-box">
+                <div class="logo-staff-box">
+                    <svg class="staff-box-1-logo">
+                        <use xlink:href = "./images/sprite.svg#icon-shield"></use>
+                    </svg>
+                    <svg class="staff-box-1-logo">
+                        <use xlink:href = "./images/sprite.svg#icon-man-woman"></use>
+                    </svg>  
+                </div>
+                <div class="title">akot staff</div>
+            </div>
+            <ul class="staff-list">
+                <li class="staff-item staff-item-1 active-staff-item" id="staff-item-1">  
+                    <svg class="staff-box-1-logo logo-1">
+                        <use xlink:href = "./images/sprite.svg#icon-newspaper"></use>
+                    </svg>
+                   <span>overview</span></li>
+                <li class="staff-item staff-item-2" id="staff-item-2">
+                    <svg class="staff-box-1-logo logo-2">
+                        <use xlink:href = "./images/sprite.svg#icon-file-text2"></use>
+                    </svg>
+                   <span>appointments</span></li>
+                <li class="staff-item staff-item-3" id="staff-item-3">
+                    <svg class="staff-box-1-logo logo-3" >
+                        <use xlink:href = "./images/sprite.svg#icon-folder"></use>
+                    </svg>
+                    <span>inventory</span></li>
+                <li class="staff-item staff-item-4" id="staff-item-4">
+                    <svg class="staff-box-1-logo logo-4" >
+                        <use xlink:href = "./images/sprite.svg#icon-user-plus"></use>
+                    </svg>
+                    <span>patients</span>  </li>
+                <li class="staff-item staff-item-5" id="staff-item-5">    
+                    <svg class="staff-box-1-logo logo-5">  
+                        <use xlink:href = "./images/sprite.svg#icon-cog"></use>
+                    </svg>
+                    <span>settings</span> </li>
+            </ul>
+            <a href="./index.html" class="logout-box" >
+                <div class="logout">
+                    <svg class="staff-box-1-logo">
+                        <use xlink:href = "./images/sprite.svg#icon-switch"></use> 
+                    </svg>
+                    <span>logout</span>
+                </div>
+            </a>
+        </div>
+        <!-- box one end -->  
+        <!-- box-2 start -->
+        <div class="staff-box-2">
+            <!-- search date box start -->
+        <div class="search-date-box">
+            <div class="input-group">
+                <svg class="search-icon">
+                    <use xlink:href = "./images/sprite.svg#icon-search"></use>
+                   </svg>
+                <input type="text" class="input" placeholder="search by keywords...">
+             </div>
+             <!-- date box start -->
+             <div class="date-box">
+                <div class="date-group">
+                    <svg class="calendar-icon">
+                        <use xlink:href = "./images/sprite.svg#icon-calendar"></use>
+                       </svg>
+                    <div class="text">Today, <span class="date-zero">0</span><span class="staff-date"></span></div>
+                 </div>
+                 <div class="date-group">
+                    <svg class="calendar-icon">
+                        <use xlink:href = "./images/sprite.svg#icon-clock"></use>
+                       </svg>
+                    <div class="text"><span class="hour-zero">0</span><span class="staff-hour"></span>:<span class="minute-zero">0</span><span class="staff-minute"></span></div>
+                 </div>
+                 <div class="date-group">
+                    <svg class="calendar-icon">
+                        <use xlink:href = "./images/sprite.svg#icon-bell"></use> 
+                       </svg>
+                       <div class="dot-red"></div>
+                 </div> 
+             </div>
+             <!-- end of date box -->
+        </div>
+        <!-- search date box end -->
+        <!-- content box start -->
+        <div class="staff-content-box">
+            <!-- box one start -->
+            <div class="staff-content-box-1">
+                <!-- title name box start -->
+                <div class="title-box">
+                <div class="welcome-name">welcome, dc. <span class="staff-name">timi</span> !</div>
+                <div class="text">Lorem ipsum dolor sit, amet consectetur adipisicing.</div>
+            </div>   
+                <!-- title box end -->
+                <!-- appointment box start -->
+                <div class="appointment-box">
+                    <!-- calendar app box -->
+                    <div class="calendar-app-box">
+                    <div class="box box-cal-1">
+                        <svg class="calendar-icon">
+                            <use xlink:href = "./images/sprite.svg#icon-calendar"></use>
+                        </svg>
+                    <div class="number-box"><span class="no-1">28</span><sub class="no-2"> /45</sub></div>
+                    <div class="text-cancel">today's appointments</div>
+                </div>  
+                      <!--end of cal-box one  -->
+                      <div class="box box-cal-1">
+                        <svg class="calendar-icon">
+                            <use xlink:href = "./images/sprite.svg#icon-ungroup"></use>
+                        </svg>  
+                    <div class="number-box"><span class="no-1">13</span><sub class="no-2"> /45</sub></div>
+                    <div class="text-cancel">canceled appointments</div>
+                </div>  
+                      <!--end of cal-box two  -->   
+                      <div class="box box-cal-1">
+                        <svg class="calendar-icon">    
+                            <use xlink:href = "./images/sprite.svg#icon-users"></use>
+                        </svg>
+                    <div class="number-box"><span class="no-1">283</span></div>  
+                    <div class="text-cancel text-cancel-last">total patients</div> 
+                </div>  
+                      <!--end of cal-box three  -->
+                    </div>
+                    <!-- end of calendar box for appointment -->
+                    <!-- main appointment box start -->
+                    <div class="main-app-box">
+                    <div class="title-date-wrapper">
+                        <div class="title">appointments</div>
+                        <!-- end of tittle part -->
+                        <!-- start of date names and curent day -->
+                        <div class="day-month-box">
+                            <div class="date-names">  
+                             <div class="text-date">day</div>
+                             <div class="text-date">week</div>
+                             <div class="text-date">month</div>
+                            </div>  
+                            <!-- show day to mont names end -->
+                            <div class="current-date-box">
+                            <div class="date-patient-show"><span class="patient-date-zero">0</span><span class="date-patient-show-content"></span></div>
+                            <div class="arrow-staff-box">
+                                <span class="arrow-left">&larr;</span>
+                                <span class="arrow-right">&rarr;</span>
+                            </div>
+                            </div>
+                            <!-- end of current date box  -->
+                        </div>
+                        <!-- end of date names and curent day -->
+                    </div>
+                    <!-- end of title date wrapper -->
+                    <div class="main-list-patients">
+                         <!--start of patient one box  -->
+                    <div class="patient-detail-box">   
+                        <div class="time-range-box">
+                            <div class="text">10:00 - 10:30</div>
+                        </div>
+                        <!-- end of time range box -->
+                        <div class="patient-img-name-box">
+                            <img src="./images/friend-5.jpeg" alt="" class="img">
+                            <div class="name">ajayi thompson</div>
+                        </div>
+                        <!-- end of patient img name box -->
+                        <div class="cab-box">
+                            <div class="text">cab #123</div>
+                        </div>
+                        <!-- end of cab box -->
+                        <div class="status-dots-box">
+                            <div class="status-box">
+                                <svg class="status-icon">      
+                                    <use xlink:href = "./images/sprite.svg#icon-checkbox-checked"></use>
+                                </svg>
+                                <div class="text">complete</div>
+                            </div>   
+                            <div class="dot-box">   
+                                <svg class="status-icon">       
+                                    <use xlink:href = "./images/sprite.svg#icon-enlarge2"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <!-- end of status dot box -->
+                    </div>
+                       <!--end of patient one box  -->
+                        <!--start of patient two box  -->
+                        <div class="patient-detail-box">   
+                            <div class="time-range-box">
+                                <div class="text">10:30 - 11:30</div>  
+                            </div>
+                            <!-- end of time range box -->
+                            <div class="patient-img-name-box">
+                                <img src="./images/friend-10.jpeg" alt="" class="img">
+                                <div class="name">lilian judith</div>
+                            </div>
+                            <!-- end of patient img name box -->
+                            <div class="cab-box">
+                                <div class="text">cab #123</div>
+                            </div>
+                            <!-- end of cab box -->
+                            <div class="status-dots-box">
+                                <div class="status-box">
+                                    <svg class="status-icon">      
+                                        <use xlink:href = "./images/sprite.svg#icon-checkbox-checked"></use>
+                                    </svg>
+                                    <div class="text">complete</div>
+                                </div>   
+                                <div class="dot-box">   
+                                    <svg class="status-icon">       
+                                        <use xlink:href = "./images/sprite.svg#icon-enlarge2"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                            <!-- end of status dot box -->
+                        </div>
+                           <!--end of patient two box  -->
+                               <!--start of patient three box  -->
+                    <div class="patient-detail-box">   
+                        <div class="time-range-box">
+                            <div class="text">12:00 - 12:30</div>
+                        </div>
+                        <!-- end of time range box -->
+                        <div class="patient-img-name-box">
+                            <img src="./images/friend-6.jpeg" alt="" class="img">
+                            <div class="name">claria stones</div>
+                        </div>
+                        <!-- end of patient img name box -->
+                        <div class="cab-box">
+                            <div class="text">cab #148</div>
+                        </div>
+                        <!-- end of cab box -->
+                        <div class="status-dots-box">
+                            <div class="status-box status-box-3">
+                                <svg class="status-icon">      
+                                    <use xlink:href = "./images/sprite.svg#icon-play2"></use>
+                                </svg>
+                                <div class="text">start</div>
+                            </div>   
+                            <div class="dot-box">   
+                                <svg class="status-icon">       
+                                    <use xlink:href = "./images/sprite.svg#icon-enlarge2"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <!-- end of status dot box -->
+                    </div>
+                       <!--end of patient three box  -->
+                           <!--start of patient four box  -->
+                    <div class="patient-detail-box">   
+                        <div class="time-range-box">
+                            <div class="text">12:00 - 12:30</div>
+                        </div>
+                        <!-- end of time range box -->
+                        <div class="patient-img-name-box">
+                            <img src="./images/friend-8.jpeg" alt="" class="img">
+                            <div class="name">nelson smith</div>
+                        </div>
+                        <!-- end of patient img name box -->
+                        <div class="cab-box">
+                            <div class="text">cab #147</div>
+                        </div>
+                        <!-- end of cab box -->
+                        <div class="status-dots-box">
+                            <div class="status-box status-box-4">
+                                <svg class="status-icon">      
+                                    <use xlink:href = "./images/sprite.svg#icon-cancel-circle"></use>
+                                </svg>
+                                <div class="text">canceled</div>
+                            </div>   
+                            <div class="dot-box">   
+                                <svg class="status-icon">       
+                                    <use xlink:href = "./images/sprite.svg#icon-enlarge2"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <!-- end of status dot box -->
+                    </div>
+                       <!--end of patient 4 box  -->
+                    </div>
+                    <!-- main list end -->
+                    </div>
+                    <!-- main appointment end -->
+                </div> 
+                 <!--apointment box end  -->
+            </div>
+            <!-- box one end -->
+            <!-- staff content box 2 -->
+            <div class="staff-content-box-2">
+                <!-- start of patient proper detail box -->
+                <div class="patient-proper-detail-box">   
+                    <div class="box-1">
+                        <img src="./images/friend-6.jpeg" alt="" class="img">
+                        <h3 class="name">claria stones</h3>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur.</p>
+                        <div class="icon-box">
+                            <svg class="status-icon">      
+                                <use xlink:href = "./images/sprite.svg#icon-play2"></use>
+                            </svg>
+                            <svg class="status-icon status-icon-2">      
+                                <use xlink:href = "./images/sprite.svg#icon-stats-dots"></use>
+                            </svg>
+                            <svg class="status-icon status-icon-3">        
+                                <use xlink:href = "./images/sprite.svg#icon-stats-bars"></use>
+                            </svg>   
+                        </div>    
+                        <!-- end of icon box -->
+                    </div>
+                    <!-- end of box 1 -->
+                    <div class="box-2">
+                        <div class="box-child title-box">
+                            <h5 class="title-box-title">patient details</h5>
+                            <span>&rarr;</span>
+                        </div>
+                        <div class="box-child dob-box">   
+                        <p class="text">D.O.B</p>
+                        <span>16 august 1994</span>
+                        </div>
+                        <div class="box-child height-box">
+                            <p class="text">height</p>
+                        <span>178cm</span>
+                        </div>
+                        <div class="box-child weight-box">
+                            <p class="text">weight</p>
+                        <span>48kg</span>
+                        </div>
+                        <div class="box-child disease-box">
+                            <p class="text">disease</p>
+                        <span class="disease-name">austma</span>
+                        </div>
+                    </div> 
+                     <!--end of box box 2  -->
+                </div>
+                <!-- end of patient proper detail box -->
+                <div class="inventory-box">
+                    <figure class="img-box">
+                        <img src="./images/med-cat-4.webp" alt="" class="img">
+                    </figure>
+                </div>
+            </div>
+            <!-- end of staff content box 2 -->
+        </div>
+        <!-- content box end -->
+        </div>
+        <!-- box two end -->
+    </main>
+    <!-- main end -->
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="footer__box-1">
+            <div class="footer__items">request proposal</div>
+            <div class="footer__items">come work with us</div>
+            <div class="footer__items">download our app</div>
+            <div class="footer__items">find your needs</div>
+            <div class="footer__items">contact us</div>
+        </div>
+        <div class="footer__box-3">
+            <p class="footer__text">Built by <span>AYENI KEHINDE OLUWATIMILEHIN (AKOT).</span>Thanks for checking our site</p>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <script src="./medical-staff.js"></script>
+</body>
+</html>
